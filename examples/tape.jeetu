@@ -1,0 +1,30 @@
+// A two-stack tape: increment unary 111 to 1111, then rewind left.
+// Symbols: 0 = blank, 1 = mark. States: 0 = scan, 1 = rewind, 2 = halt.
+शुरू {
+    मान लो left = [];
+    मान लो right = [];
+    मान लो cell = 1;
+    डालो(right, 1);
+    डालो(right, 1);
+    मान लो state = 0;
+    जब तक (state != 2) {
+        अगर (state == 0) {
+            अगर (cell == 1) {
+                डालो(left, cell);
+                अगर (खाली(right)) { cell = 0; }
+                वरना { cell = निकालो(right); }
+            } वरना {
+                cell = 1;
+                state = 1;
+            }
+        } वरना {
+            अगर (खाली(left)) { state = 2; }
+            वरना {
+                डालो(right, cell);
+                cell = निकालो(left);
+            }
+        }
+    }
+    बोलो cell;
+    जब तक (!खाली(right)) { बोलो निकालो(right); }
+}

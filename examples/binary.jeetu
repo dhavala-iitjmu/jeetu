@@ -1,0 +1,12 @@
+// Push remainders, then pop to print the most significant bit first.
+शुरू {
+    मान लो number = 42;
+    मान लो bits = [];
+    अगर (number == 0) { डालो(bits, 0); }
+    जब तक (number > 0) {
+        डालो(bits, number % 2);
+        number = number / 2;
+    }
+    जब तक (!खाली(bits)) { लिखो निकालो(bits); }
+    बोलो "";
+}

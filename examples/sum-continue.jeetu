@@ -1,0 +1,13 @@
+// Sum only positive entries. Advance the index before continuing.
+शुरू {
+    मान लो values = [-5, 3, 0, 7, -2, 4];
+    मान लो sum = 0;
+    मान लो i = 0;
+    जब तक (i < लंबाई(values)) {
+        मान लो value = values[i];
+        i = i + 1;
+        अगर (value <= 0) { जारी; }
+        sum = sum + value;
+    }
+    बोलो sum;
+}

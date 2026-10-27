@@ -1,0 +1,14 @@
+शुरू {
+    मान लो values = [4, 8, 15, 16, 23, 42];
+    मान लो target = 16;
+    मान लो found = -1;
+    मान लो i = 0;
+    जब तक (i < लंबाई(values)) {
+        अगर (values[i] == target) {
+            found = i;
+            रुको;
+        }
+        i = i + 1;
+    }
+    बोलो found;  // Zero-based index, or -1 if absent.
+}

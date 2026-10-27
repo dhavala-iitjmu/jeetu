@@ -1,0 +1,10 @@
+// Text values are immutable views; returning a character is safe.
+कार्य firstLetter(word: पाठ): पाठ {
+    लौटाओ word[0];
+}
+
+शुरू {
+    बोलो firstLetter("Jeetu");
+    बोलो लंबाई("A🙂é");
+    बोलो "A🙂é"[1];
+}

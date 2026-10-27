@@ -1,0 +1,16 @@
+कार्य isPrime(n: पूर्णांक): बूलियन {
+    अगर (n < 2) { लौटाओ झूठ; }
+    मान लो divisor = 2;
+    // Division avoids overflowing divisor * divisor for large inputs.
+    जब तक (divisor <= n / divisor) {
+        अगर (n % divisor == 0) { लौटाओ झूठ; }
+        divisor = divisor + 1;
+    }
+    लौटाओ सच;
+}
+
+शुरू {
+    बोलो isPrime(29);
+    बोलो isPrime(30);
+    बोलो isPrime(1);
+}

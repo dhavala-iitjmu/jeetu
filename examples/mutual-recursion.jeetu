@@ -1,0 +1,15 @@
+// All function signatures are known before bodies are checked.
+कार्य isEven(n: पूर्णांक): बूलियन {
+    अगर (n == 0) { लौटाओ सच; }
+    लौटाओ isOdd(n - 1);
+}
+
+कार्य isOdd(n: पूर्णांक): बूलियन {
+    अगर (n == 0) { लौटाओ झूठ; }
+    लौटाओ isEven(n - 1);
+}
+
+शुरू {
+    बोलो isEven(10);
+    बोलो isOdd(10);
+}

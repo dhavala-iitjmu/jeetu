@@ -1,0 +1,12 @@
+// Precondition: exponent is nonnegative. Checked arithmetic reports overflow.
+कार्य power(base: पूर्णांक, exponent: पूर्णांक): पूर्णांक {
+    अगर (exponent == 0) { लौटाओ 1; }
+    मान लो half = power(base, exponent / 2);
+    अगर (exponent % 2 == 0) { लौटाओ half * half; }
+    लौटाओ base * half * half;
+}
+
+शुरू {
+    बोलो power(2, 10);
+    बोलो power(7, 0);
+}

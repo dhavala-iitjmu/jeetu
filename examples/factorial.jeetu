@@ -1,0 +1,9 @@
+शुरू {
+    मान लो n = 5;
+    मान लो factorial = 1;
+    जब तक (n > 1) {
+        factorial = factorial * n;
+        n = n - 1;
+    }
+    बोलो factorial;
+}

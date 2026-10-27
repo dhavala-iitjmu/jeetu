@@ -1,0 +1,11 @@
+// F(0) = 0, F(1) = 1. Direct recursion is clear but repeats work.
+कार्य fib(n: पूर्णांक): पूर्णांक {
+    अगर (n <= 1) {
+        लौटाओ n;
+    }
+    लौटाओ fib(n - 1) + fib(n - 2);
+}
+
+शुरू {
+    बोलो fib(10);
+}

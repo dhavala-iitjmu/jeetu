@@ -1,0 +1,10 @@
+// Print the characters in reverse order. No built-in reversal operation.
+शुरू {
+    मान लो word = "Hello, Jeetu!";
+    मान लो i = लंबाई(word);
+    जब तक (i > 0) {
+        i = i - 1;
+        लिखो word[i];
+    }
+    बोलो "";
+}

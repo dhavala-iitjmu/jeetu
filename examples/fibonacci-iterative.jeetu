@@ -1,0 +1,18 @@
+// Same result as recursive Fibonacci, using linear time and constant storage.
+कार्य fib(n: पूर्णांक): पूर्णांक {
+    अगर (n <= 1) { लौटाओ n; }
+    मान लो previous = 0;
+    मान लो current = 1;
+    मान लो i = 1;
+    जब तक (i < n) {
+        मान लो next = previous + current;
+        previous = current;
+        current = next;
+        i = i + 1;
+    }
+    लौटाओ current;
+}
+
+शुरू {
+    बोलो fib(10);
+}

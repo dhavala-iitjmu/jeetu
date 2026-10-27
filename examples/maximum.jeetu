@@ -1,0 +1,18 @@
+// Precondition: values is nonempty. The caller owns it; maximum only reads it.
+कार्य maximum(values: सूची): पूर्णांक {
+    मान लो best = values[0];
+    मान लो i = 1;
+    जब तक (i < लंबाई(values)) {
+        अगर (values[i] > best) {
+            best = values[i];
+        }
+        i = i + 1;
+    }
+    लौटाओ best;
+}
+
+शुरू {
+    मान लो values = [-12, -3, -27, -8, -3];
+    बोलो maximum(values);
+    बोलो लंबाई(values);  // Still 5: the function did not consume the sequence.
+}
