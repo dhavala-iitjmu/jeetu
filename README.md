@@ -5,6 +5,16 @@ compiled through readable C11 to a native executable. The compiler requires
 Python 3.9+ and a C11 compiler (`cc`, Clang or GCC); no Python packages are needed.
 Generated executables do not require Python.
 
+> [!WARNING]
+> **For education and experimentation only.** Jeetu is an experimental teaching
+> project, not a production-ready language. Do not use it for serious work,
+> production systems, or anything where correctness, security, or reliability
+> matters. Bugs, limitations, and breaking changes should be expected.
+> **Try it at your own risk.**
+>
+> Even better, use it as a starting point: study the compiler, report bugs,
+> contribute tests and features, and help turn Jeetu into a full-fledged language.
+
 ![Jeetu classroom cartoon: a student asks whether code is now in Hindi; the teacher replies that the reasoning is still the student's job. The board shows Devanagari keywords, an English variable name, and the Jeetu-to-C compilation workflow.](assets/jeetu-cartoon.png)
 
 ## Try it
