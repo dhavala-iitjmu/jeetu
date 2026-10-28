@@ -5,6 +5,8 @@ compiled through readable C11 to a native executable. The compiler requires
 Python 3.9+ and a C11 compiler (`cc`, Clang or GCC); no Python packages are needed.
 Generated executables do not require Python.
 
+![Jeetu classroom cartoon: a student asks whether code is now in Hindi; the teacher replies that the reasoning is still the student's job. The board shows Devanagari keywords, an English variable name, and the Jeetu-to-C compilation workflow.](assets/jeetu-cartoon.png)
+
 ## Try it
 
 From the repository root:

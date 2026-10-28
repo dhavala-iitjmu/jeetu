@@ -1,0 +1,17 @@
+Generated with the built-in image-generation tool.
+
+Use case: illustration-story.
+Create a polished square 1536x1536 black-and-white Indian newspaper editorial cartoon about the educational programming language JEETU, in the pen-and-ink cartoon style of R. K. Laxman: lively fine lines, expressive caricature, restrained crosshatching, wry humane humor, ample white space, clear visual hierarchy, not a photographic or 3D image.
+Scene: a modest Kota coaching classroom, recalling the monochrome atmosphere of Kota Factory. A patient young Indian male teacher inspired by Jeetu Bhaiya (Jitendra Kumar), with short dark hair, light stubble, a plain rolled-sleeve shirt and a gently amused expression, stands beside a blackboard. Two earnest students sit at a desk with notebooks and a laptop. The teacher is approachable, the humor is affectionate.
+Composition: clean square social-media poster; large title JEETU at top; central classroom scene and two generously sized speech balloons. All lettering highly readable on a phone. The blackboard is large enough for the code to be legible; no dense background clutter. White background with black ink and subtle gray wash.
+Exact speech balloon from a student: "भैया, अब कोड भी हिंदी में?"
+Exact reply from the teacher: "हाँ। पर तर्क तो तुम्हें ही लगाना पड़ेगा!"
+Render the Devanagari accurately, without missing vowel marks.
+Exact blackboard code, in four clearly separated lines with braces:
+शुरू {
+    मान लो answer = 42;
+    बोलो answer;
+}
+Below the code, a simple chalk arrow flow: ".jeetu → C → executable".
+At the bottom in a clean small but legible caption: "github.com/dhavala-iitjmu/jeetu"
+Preserve the distinction: Hindi Devanagari keywords, English variable name answer. Keep the original dialogue exactly. No artist signature, watermark, show logo, affiliation badge or additional text. Ensure all text fits comfortably inside margins.
