@@ -5,9 +5,7 @@ compiled through readable C11 to a native executable. The compiler requires
 Python 3.9+ and a C11 compiler (`cc`, Clang or GCC); no Python packages are needed.
 Generated executables do not require Python.
 
-🎂 **Jeetu's birthday is 27 October.** Version 0.1 was born on **27 October 2026**,
-when the [first release commit](https://github.com/dhavala-iitjmu/jeetu/commit/4c2f67c4841559df89ad66144e60d3396b403997)
-was recorded at **9:33:37 PM IST (UTC+05:30)**.
+🎂 **Jeetu's birthday is 27 October.  Jeetu was born on **27 October 2026** at **9:33:37 PM IST (UTC+05:30)** on Apple Silicon.
 
 > [!WARNING]
 > **For education and experimentation only.** Jeetu is an experimental teaching
