@@ -150,5 +150,12 @@ SANITIZE=1 python3 -m unittest discover -s tests -v
 CC=gcc python3 -m unittest discover -s tests -v
 ```
 
-MIT licensed. Independent educational project inspired by Hinglish programming
-and a patient teacher's tone; no affiliation or endorsement is implied.
+## Inspiration and credit
+
+Jeetu takes inspiration from **[BhaiLang](https://bhailang.js.org/#playground)**
+and its playful approach to programming with Hindi-inspired language constructs.
+Thank you to the BhaiLang creators for the inspiration. Try their
+[interactive playground](https://bhailang.js.org/#playground).
+
+MIT licensed. Jeetu is an independent educational project; no affiliation with
+or endorsement by BhaiLang is implied.
